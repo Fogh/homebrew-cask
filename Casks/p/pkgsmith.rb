@@ -1,6 +1,6 @@
 cask "pkgsmith" do
   version "1.0.1"
-  sha256 "6ff9f8c5789ed23fb2b300d9488d1cc68f25fbd8604466884c580dceee5ba0de"
+  sha256 "637fb09173da363b066538f8e795fcfcd0345ed74c83dd7698063fc8a0def8ac"
 
   url "https://github.com/Fogh/pkg-updates/releases/download/#{version}/PKGSmith-#{version}-macos.zip", verified: "github.com/Fogh/pkg-updates/"
   name "PKGSmith"
