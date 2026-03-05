@@ -1,6 +1,6 @@
 # homebrew-cask
 
-Tap for PKGSmith.
+Tap for [PKGSmith](https://pkgsmith.app).
 
 ## Install
 
