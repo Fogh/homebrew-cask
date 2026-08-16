@@ -1,8 +1,8 @@
 cask "pkgsmith" do
-  version "1.0.6"
-  sha256 "2e6bc02bb982d73b6313ea4124b4bffa8c0542c091d565ab02e667d22135f1bf"
+  version "1.0.7"
+  sha256 "0dfdb0bd47048f347df248555f47a72b8b8b35b6b78ca3d72dfd2f012bc244fb"
 
-  url "https://github.com/Fogh/pkg-updates/releases/download/#{version}/PKGSmith-#{version}-macos.zip", verified: "github.com/Fogh/pkg-updates/"
+  url "https://github.com/Fogh/pkg-updates/releases/download/#{version}/PKGSmith-#{version}-macos.zip"
   name "PKGSmith"
   desc "Create signed PKG and DMG installers from reusable project definitions"
   homepage "https://pkgsmith.app/"
@@ -13,8 +13,7 @@ cask "pkgsmith" do
   end
 
   auto_updates true
-
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "PKGSmith.app"
   binary "PKGSmith.app/Contents/MacOS/PKGSmith", target: "pkgsmith"
